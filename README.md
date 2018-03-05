@@ -4,8 +4,11 @@ By using an instance of this class through your project, the aim is, you need no
 Usage:
 
 //instance
+
 UIScannerGuard scannerGuard = new UIScannerGuard();
+
 int tal = scannerGuard.readLong("Enter 10");
+
 String text = scannerGuard.readLine("Enter hej");
 
 To close the scanner that's inside code
